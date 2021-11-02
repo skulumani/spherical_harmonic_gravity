@@ -1,9 +1,6 @@
-# C++ Project template
+# Spherical Harmonic Gravitational Potential
 
-Template for quickly setting up a `cmake` based C++ project
-
-Update submodules
-
+Installation: 
 ~~~
 git submodule update --init
 ~~~
@@ -24,3 +21,11 @@ cmake ..
 2. Build the code `make`
 
 3. Run tests `cd ../bin/test_all`
+
+
+## TODO
+
+* [ ] Reader for harmonic coefficients
+* [ ] Associated legendre functions
+* [ ] Potential and acceleration function
+* [ ] Allow input of ECEF <> ECI rotation matrix
